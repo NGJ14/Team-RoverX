@@ -341,7 +341,7 @@ h1 {
   margin: 2vh 0;
 }
 .sponsor-table div{
-  width: 28vw;
+  width: 24vw;
   padding: 2vh 4vw;
   display: flex;
   justify-content: center;
@@ -354,6 +354,55 @@ h1 {
   color: var(--Xgreen);
   font-size: 3rem;
   font-weight: 600;
-  text-align: center;
   margin: 3vh 0;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+}
+.sponsor-para{
+  text-align: center;
+  color: var(--greyText);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.8rem;
+  padding: 3vh 4vw;
+}
+.become-sponsor-section{
+  padding: 10px;
+  background: #222;
+  margin: 0 5vw 8vh 5vw;
+  border-radius: 2.5vh;
+  background: linear-gradient(#000, transparent, #000);
+  border: 2px solid var(--greyText);
+}
+.become-sponsor-para{
+  color: var(--greyText);
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.8rem;
+  padding: 2vh 10vw 5vh 10vw;
+}
+.become-sponsor-para h3{
+  color: var(--Xgreen);
+}
+.brochure-download{
+  margin-bottom: 8vh;
+  text-align: center;
+}
+.brochure-download a{
+  color: var(--Xgreen);
+  border: 2px solid var(--greyText);
+  font-size: 1.3rem;
+  word-spacing: 8px;
+  text-decoration: none;
+  background: #222;
+  padding: 15px 25px;
+  border-radius: 50px;
+}
+.brochure-download a:hover{
+ background: var(--Xgreen); 
+ color: black;
 }
