@@ -13,7 +13,7 @@
 body {
   background: #111;
   cursor: url(images/cursors/cursor.png), auto;
-  background-image: url(./bgFilter.png);
+  background-image: url(./images/bgFilter.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
