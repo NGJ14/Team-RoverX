@@ -1,49 +1,15 @@
-// class SpecialHeader extends HTMLElement {
-//   ConnectedCallback() {
-//     this.innerHTML = `
-//             <div class="nav-container">
-//         <nav>
-//             <ul>
-//                 <div><a href=""><img class="nav-logo" src="./images/logos/roverx-white-logo.png" alt=""></a></div>
-//                 <div class="nav-list">
-//                     <li><a href="./index.html">HOME</a></li>
-//                     <li><a href="./team.html">TEAM</a></li>
-//                     <li><a href="./rovers.html">ROVERS</a></li>
-//                     <li><a href="./achievements.html">ACHIEVEMENTS</a></li>
-//                     <li><a href="./media.html">MEDIA</a></li>
-//                     <li><a href="./sponsors.html">SPONSORS</a></li>
-//                 </div>
-//             </ul>
-//         </nav>
-//     </div>
-//         `
-//   }
-// }
-
-// class SpecialFooter extends HTMLElement {
-//   ConnectedCallback() {
-//     this.innerHTML = `
-        
-//         `
-//   }
-// }
-
-// customElements.define("special-header", SpecialHeader);
-// customElements.define("special-footer", SpecialFooter);
-
-
 document.getElementById("header").innerHTML = `
   <div class="nav-container">
     <nav>
         <ul>
             <div><a href=""><img class="nav-logo" src="./images/logos/roverx-white-logo.png" alt=""></a></div>
             <div class="nav-list">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./team.html">TEAM</a></li>
-                <li><a href="./rovers.html">ROVERS</a></li>
-                <li><a href="./achievements.html">ACHIEVEMENTS</a></li>
-                <li><a href="./media.html">MEDIA</a></li>
-                <li><a href="./sponsors.html">SPONSORS</a></li>
+                <li><a class="ACTIVEhome" href="./index.html">HOME</a></li>
+                <li><a class="ACTIVErovers" href="./rovers.html">ROVERS</a></li>
+                <li><a class="ACTIVEachievements" href="./achievements.html">ACHIEVEMENTS</a></li>
+                <li><a class="ACTIVEteam" href="./team.html">TEAM</a></li>
+                <li><a class="ACTIVEmedia" href="./media.html">MEDIA</a></li>
+                <li><a class="ACTIVEsponsor" href="./sponsors.html">SPONSORS</a></li>
             </div>
         </ul>
     </nav>
