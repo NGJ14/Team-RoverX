@@ -8,7 +8,7 @@ document.getElementById("header").innerHTML = `
                 <li><a class="ACTIVErovers" href="./rovers.html">ROVERS</a></li>
                 <li><a class="ACTIVEachievements" href="./achievements.html">ACHIEVEMENTS</a></li>
                 <li><a class="ACTIVEteam" href="./team.html">TEAM</a></li>
-                <li><a class="ACTIVEmedia" href="./media.html">MEDIA</a></li>
+                <li><a class="ACTIVEgallery" href="./gallery.html">GALLERY</a></li>
                 <li><a class="ACTIVEsponsor" href="./sponsors.html">SPONSORS</a></li>
             </div>
         </ul>
