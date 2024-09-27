@@ -406,3 +406,12 @@ h1 {
  background: var(--Xgreen); 
  color: black;
 }
+.gallery-title{
+  color: var(--Xgreen);
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 15vh 0 0 0;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+}

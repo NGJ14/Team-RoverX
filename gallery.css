@@ -6,7 +6,7 @@
   cursor: url(images/cursors/pointer.png), auto;
 }
 .album{
-  margin: 13vh 4vw 2vh 4vw;
+  margin: 5vh 4vw 2vh 4vw;
   display: flex;
 }
 .col{
