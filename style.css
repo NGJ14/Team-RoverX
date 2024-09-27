@@ -332,3 +332,28 @@ h1 {
   color: var(--greyText);
   text-align: justify;
 }
+.sponsor-table{
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0;
+}
+.sponsor-table div{
+  width: 28vw;
+  padding: 2vh 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor-table div img{
+  width: 100%;
+}
+.sponsor-title{
+  color: var(--Xgreen);
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 3vh 0;
+}
