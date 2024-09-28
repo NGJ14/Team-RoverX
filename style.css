@@ -278,6 +278,8 @@ h1 {
   margin: 40px 5vw;
   border-radius: 3vh;
   transition: transform 0.2s ease-in-out, border 0.2s ease-in-out;
+  border: 2px transparent solid;
+
 }
 .roverBox:hover{
   transform: scale(1.03);
