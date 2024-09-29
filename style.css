@@ -417,3 +417,41 @@ h1 {
   letter-spacing: 1px;
   word-spacing: 8px;
 }
+.achievement-title{
+  color: var(--Xgreen);
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 15vh 0 3vh 0;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+}
+.achievements-container{
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+  margin: 5vh;
+}
+.achievement-box{
+  text-align: center;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 15px;
+  margin: 10px 15px;
+  box-shadow: rgba(46, 240, 75, 0.4) 5px 5px, rgba(107, 240, 46, 0.3) 10px 10px, rgba(46, 240, 49, 0.2) 15px 15px, rgba(46, 240, 59, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  background: linear-gradient(to right, rgba(10, 76, 0, 0.734) 50%, #111 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .1s ease-out;
+}
+.achievement-box:hover{
+  background-position: left bottom;
+}
+.ach-box-title{
+  color: var(--Xgreen);
+  font-size: 1.4rem;
+}
