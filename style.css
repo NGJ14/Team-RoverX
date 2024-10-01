@@ -442,11 +442,12 @@ h1 {
   align-items: center;
   padding: 40px 15px;
   margin: 10px 15px;
-  box-shadow: rgba(46, 240, 75, 0.4) 5px 5px, rgba(107, 240, 46, 0.3) 10px 10px, rgba(46, 240, 49, 0.2) 15px 15px, rgba(46, 240, 59, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-  background: linear-gradient(to right, rgba(10, 76, 0, 0.734) 50%, #111 50%);
+  box-shadow: rgba(46, 46, 46, 0.711) 5px 5px, rgba(217, 217, 217, 0.3) 10px 10px;
+  background: linear-gradient(to right, rgba(7, 39, 2, 0.734) 50%, #111 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .1s ease-out;
+  border-radius: 0.5vh;
 }
 .achievement-box:hover{
   background-position: left bottom;
