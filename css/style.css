@@ -12,8 +12,8 @@
 }
 body {
   background: #111;
-  cursor: url(images/cursors/cursor.png), auto;
-  background-image: url(./images/bgFilter.png);
+  cursor: url(../images/cursors/cursor.png), auto;
+  background-image: url(../images/bgFilter.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -192,7 +192,7 @@ h1 {
   margin: 10px 25px 25px 25px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   padding: 20px;
   border-radius: 2.5vh;
