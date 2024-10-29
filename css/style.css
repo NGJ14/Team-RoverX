@@ -95,6 +95,54 @@ nav ul li a:hover,
   box-shadow: rgba(255, 255, 255, 0.24) 0px 8px 16px;
   cursor: url(images/cursors/pointer.png), auto;
 }
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 1.3rem;  
+  border-radius: 5vh;
+  letter-spacing: 3px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0px 15px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0 10px;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: #111;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 145px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 2vh;
+  margin-top: 1px;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 2vh;
+  color: #000;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .nav-logo {
   height: 7vh;
   left: 0;
