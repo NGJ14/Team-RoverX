@@ -93,7 +93,7 @@ nav ul li a:hover,
   color: #222;
   background: rgba(255, 255, 255, 0.9);
   box-shadow: rgba(255, 255, 255, 0.24) 0px 8px 16px;
-  cursor: url(images/cursors/pointer.png), auto;
+  cursor: url(../images/cursors/pointer.png), auto;
 }
 .dropdown {
   float: left;
@@ -503,4 +503,49 @@ h1 {
 .ach-box-title{
   color: var(--Xgreen);
   font-size: 1.4rem;
+}
+.team-row{
+  margin: 1vh 0;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.team-title{
+  padding: 14vh 0 2vh 0;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  background: linear-gradient(green,transparent);  
+}
+.department-title{
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3vh;
+  padding: 1vh 0;
+  background: linear-gradient(to right, transparent,green,transparent);
+}
+.team-unit{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #444444c0;
+  border-radius: 3px;
+}
+.team-unit div img{
+  height: 26vh;
+  border-radius: 2.5px;
+}
+.member-name{
+  font-size: 1.2rem;
+}
+.team-post{
+  color: var(--Xgreen);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
