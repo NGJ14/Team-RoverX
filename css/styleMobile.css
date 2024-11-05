@@ -1,0 +1,52 @@
+@media (max-width: 801px) {
+  #header {
+    display: none;
+  }
+  .landing-section {
+    display: none;
+  }
+  .about-section {
+    padding: 2px;
+    background: #222;
+    margin: 15px;
+    border-radius: 2.5vh;
+    background: linear-gradient(#000, transparent, #000);
+    border: 2px solid var(--greyText);
+  }
+  h1 {
+    color: var(--Xgreen);
+    text-align: center;
+    padding: 10px;
+    word-spacing: 2px;
+  }
+  .p-container {
+    padding: 4px 20px 10px 20px;
+  }
+  .about-section p {
+    text-align: center;
+    color: var(--greyText);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+  }
+  .recents-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .recent-box {
+    display: flex;
+    flex-direction: column;
+    min-height: 25vh;
+    width: 84vw;
+    /* margin: 10px 6vw; */
+  }
+  .alumni-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .startup-box {
+    width: 84vw;
+    /* margin: 10px 6vw; */
+  }
+}

@@ -22,8 +22,8 @@ document.getElementById("header").innerHTML = `
                         <a href="./team-2017.html">2017</a>
                         <a href="./team-2016.html">2016</a>
                         <a href="./team-2015.html">2015</a>
-                </div>
-  </div> 
+                    </div>
+                </div> 
                 <li><a class="ACTIVEgallery" href="./gallery.html">GALLERY</a></li>
                 <li><a class="ACTIVEsponsor" href="./sponsors.html">SPONSORS</a></li>
             </div>
@@ -31,6 +31,11 @@ document.getElementById("header").innerHTML = `
     </nav>
 </div>
   `;
+
+// document.getElementById("navbar").innerHTML = `
+    
+// `;
+
 document.getElementById("footer").innerHTML = `
 <div class="contact-section">
         <div>
