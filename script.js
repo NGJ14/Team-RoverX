@@ -33,54 +33,53 @@ document.getElementById("header").innerHTML = `
   `;
 
 // document.getElementById("navbar").innerHTML = `
-    
+
 // `;
 
 document.getElementById("footer").innerHTML = `
 <div class="contact-section">
-        <div>
-            <p class="text-white d-flex mb-1">
-                <a href="tel:7972829035">
-                    +91-7972829035
-                    <br>
-                    Aishwary Dixit
-                    <br>
-                    Team Captain
-                </a>
-            </p>
-        </div>
-        <div>
-            <p>
-                Creation Labs, <br>
-                Vellore Institute of Technology,<br>
-                Vellore, Tamil Nadu - 632014</p>
-        </div>
-        <div>
-            <p>
-                <a href="mailto:roverteam.vit@gmail.com">
-                    roverteam.vit@gmail.com
-                </a>
+    <div>
+        <p class="text-white d-flex mb-1">
+            <a href="tel:7972829035">
+                +91-7972829035
                 <br>
-                <a href="mailto:teamroverx@vit.ac.in">
-                    teamroverx@vit.ac.in
-                </a>
-            </p>
-        </div>
+                Aishwary Dixit
+                <br>
+                Team Captain
+            </a>
+        </p>
     </div>
+    <div>
+        <p>
+            Creation Labs, <br>
+            Vellore Institute of Technology,<br>
+            Vellore, Tamil Nadu - 632014</p>
+    </div>
+    <div>
+        <p>
+            <a href="mailto:roverteam.vit@gmail.com">
+                roverteam.vit@gmail.com
+            </a>
+            <br>
+            <a href="mailto:teamroverx@vit.ac.in">
+                teamroverx@vit.ac.in
+            </a>
+        </p>
+    </div>
+</div>
 <div class="footer-section">
-        <div class="footer-logo-container">
-            <div><img class="footer-logo" src="./images/logos/CreationLabs_logo.png" alt=""></div>
-            <div>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-            </div>
-            <div><img class="footer-logo" src="./images/logos/vit_logo.png" alt=""></div>
+    <div class="footer-logo-container">
+        <div><img class="footer-logo" src="./images/logos/CreationLabs_logo.png" alt=""></div>
+        <div>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
         </div>
-        <div class="copyright-strip">
-            &copy; Copyright - Team RoverX 2024
-        </div>
+        <div><img class="footer-logo" src="./images/logos/vit_logo.png" alt=""></div>
     </div>
-    
+    <div class="copyright-strip">
+        &copy; Copyright - Team RoverX 2024
+    </div>
+</div>    
 `;

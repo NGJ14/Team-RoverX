@@ -49,4 +49,105 @@
     width: 84vw;
     /* margin: 10px 6vw; */
   }
+  .ACTIVEachievements{
+    color: var(--Xgreen);
+  color: #222;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 8px 16px;
+  cursor: url(images/cursors/pointer.png), auto;
+}
+.achievements-container{
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+  margin: 3vh 1vh;
+}
+.achievement-box{
+  text-align: center;
+  width: 44vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: rgba(46, 46, 46, 0.711) 5px 5px, rgba(217, 217, 217, 0.3) 10px 10px;
+  background: linear-gradient(to right, rgba(7, 39, 2, 0.734) 50%, #111 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .1s ease-out;
+  border-radius: 0.5vh;
+  font-size: 0.9rem;
+}
+.achievement-box:hover{
+  background-position: left bottom;
+}
+.ach-box-title{
+  color: var(--Xgreen);
+  font-size: 1rem;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  color: var(--greyText);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  line-height: 3vh;
+  padding: 30px 0;
+  border-top: 2px solid var(--greyText);
+  background: #090909;
+  font-size: 1.2rem;
+}
+.contact-section a {
+  color: var(--greyText);
+  text-decoration: none;
+}
+.contact-section div {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+.footer-section {
+  padding: 25px;
+  background: #000;
+  border-top: 2px solid var(--greyText);
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  height: 8vh;
+  margin: 15px 50px;
+}
+.footer-logo-container div {
+  width: 33.33vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo-container div a i {
+  color: var(--greyText);
+  font-size: 2rem;
+  margin: 10px;
+}
+.footer-logo-container div a i:hover {
+  color: var(--Xgreen);
+}
+.copyright-strip {
+  color: var(--greyText);
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 20px;
+}
 }
