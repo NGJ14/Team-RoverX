@@ -150,4 +150,74 @@
   font-size: 0.85rem;
   margin-top: 20px;
 }
+.sponsor-table{
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0;
+}
+.sponsor-table div{
+  width: 44vw;
+  padding: 0vh 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor-table div img{
+  width: 100%;
+}
+.sponsor-title{
+  color: var(--Xgreen);
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 1.5vh 0;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+}
+.sponsor-para{
+  text-align: center;
+  color: var(--greyText);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.5rem;
+  padding: 1.5vh 2vw;
+}
+.become-sponsor-section{
+  padding: 10px;
+  background: #222;
+  margin: 0 2.5vw 4vh 2.5vw;
+  border-radius: 2.5vh;
+  background: linear-gradient(#000, transparent, #000);
+  border: 2px solid var(--greyText);
+}
+.become-sponsor-para{
+  color: var(--greyText);
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.6rem;
+  padding: 2vh 10vw 5vh 10vw;
+}
+.become-sponsor-para h3{
+  color: var(--Xgreen);
+}
+.brochure-download{
+  margin-bottom: 6vh;
+  text-align: center;
+}
+.brochure-download a{
+  color: var(--Xgreen);
+  border: 2px solid var(--greyText);
+  font-size: 1.2rem;
+  word-spacing: 8px;
+  text-decoration: none;
+  background: #222;
+  padding: 15px 25px;
+  border-radius: 50px;
+}
 }
