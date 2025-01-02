@@ -220,4 +220,49 @@
   padding: 15px 25px;
   border-radius: 50px;
 }
+.roverBox {
+  display: flex;
+  flex-direction: column;
+  background: #222;
+  margin: 40px 5vw;
+  border-radius: 3vh;
+  transition: transform 0.2s ease-in-out, border 0.2s ease-in-out;
+  border: 2px transparent solid;
+
+}
+.roverBox:hover{
+  transform: scale(1.03);
+  z-index: -50;
+  border: 2px var(--greyText) solid;
+}
+.roverImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roverImg img {
+  max-height: 40vh;
+  max-width: 90vw;
+  padding: 10px;
+  border-radius: calc(3vh + 5px);
+}
+.roverDesc1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  padding: 7.5px 15px;
+}
+.roverDesc1 h2{
+  color: var(--Xgreen);
+}
+.roverDesc1 h4{
+  color: white;
+}
+.roverDesc1 p {
+  font-size: 1.1rem;
+  word-spacing: 3px;
+  color: var(--greyText);
+  text-align: justify;
+}
 }
