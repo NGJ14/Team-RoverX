@@ -1,7 +1,9 @@
-.ACTIVEsponsor{
+@media (min-width: 802px) {
+  .ACTIVEsponsor {
     color: var(--Xgreen);
-  color: #222;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: rgba(255, 255, 255, 0.24) 0px 8px 16px;
-  cursor: url(images/cursors/pointer.png), auto;
+    color: #222;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 8px 16px;
+    cursor: url(images/cursors/pointer.png), auto;
+  }
 }

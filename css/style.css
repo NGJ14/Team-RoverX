@@ -18,6 +18,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+#navbar{
+  display: none;
+}
 ::-moz-selection {
   /* Code for Firefox */
   color: #111;
@@ -55,7 +58,7 @@ body {
   z-index: 50;
 }
 .empty {
-  height: 13vh;
+  height: 9vh;
 }
 nav {
   width: calc(100vw - 40px);
@@ -404,7 +407,7 @@ h1 {
   color: var(--Xgreen);
   font-size: 3rem;
   font-weight: 600;
-  margin: 3vh 0;
+  margin: 5vh 0;
   text-align: center;
   letter-spacing: 1px;
   word-spacing: 8px;
@@ -460,7 +463,7 @@ h1 {
   color: var(--Xgreen);
   font-size: 3rem;
   font-weight: 600;
-  margin: 15vh 0 0 0;
+  margin: 5vh 0 0 0;
   text-align: center;
   letter-spacing: 1px;
   word-spacing: 8px;
@@ -469,7 +472,7 @@ h1 {
   color: var(--Xgreen);
   font-size: 3rem;
   font-weight: 600;
-  margin: 15vh 0 3vh 0;
+  margin: 5vh 0 3vh 0;
   text-align: center;
   letter-spacing: 1px;
   word-spacing: 8px;

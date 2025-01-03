@@ -1,30 +1,32 @@
-.ACTIVEgallery{
+@media (min-width: 802px) {
+  .ACTIVEgallery {
     color: var(--Xgreen);
-  color: #222;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: rgba(255, 255, 255, 0.24) 0px 8px 16px;
-  cursor: url(images/cursors/pointer.png), auto;
+    color: #222;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 8px 16px;
+    cursor: url(images/cursors/pointer.png), auto;
+  }
 }
-.album{
+.album {
   margin: 5vh 4vw 2vh 4vw;
   display: flex;
 }
-.col{
+.col {
   width: 22vw;
 }
-.col .row-pic{
+.col .row-pic {
   display: flex;
   flex-direction: column;
 }
-.col .row-pic img{
+.col .row-pic img {
   width: 100%;
 }
-.single-row{
+.single-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.single-row img{
+.single-row img {
   height: 25vh;
   width: 22vw;
   object-fit: cover;
