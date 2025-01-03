@@ -28,9 +28,37 @@ document.getElementById("header").innerHTML = `
 </div>
   `;
 
-// document.getElementById("navbar").innerHTML = `
-
-// `;
+document.getElementById("navbar").innerHTML = `
+<div class="nav2">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="./index.html"><img src="./images/logos/roverx-white-logo.png" alt=""></a>
+        <ul>
+            <li><a class="nav2menu ACTIVEhome" href="./index.html">HOME</a></li>
+            <li><a class="nav2menu ACTIVErovers" href="./rovers.html">ROVERS</a></li>
+            <li><a class="nav2menu ACTIVEachievements" href="./achievements.html">ACHIEVEMENTS</a></li>
+            <li><a class="nav2menu ACTIVEgallery" href="./gallery.html">GALLERY</a></li>
+            <li><a class="nav2menu ACTIVEsponsor" href="./sponsors.html">SPONSORS</a></li>
+            <li>
+                <div class="dropdown2">
+                    <button class="nav2menu dropbtn2">TEAM
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown2-content">
+                        <a class="navYear" href="./team-2024.html">2024</a>
+                        <a class="navYear" href="./team-2023.html">2023</a>
+                        <a class="navYear" href="./team-2022.html">2022</a>
+                        <a class="navYear" href="./team-2021.html">2021</a>
+                        <a class="navYear" href="./team-2020.html">2020</a>
+                        <a class="navYear" href="./team-2019.html">2019</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+`;
 
 document.getElementById("footer").innerHTML = `
 <div class="contact-section">
