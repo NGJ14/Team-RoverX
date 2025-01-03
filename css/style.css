@@ -249,6 +249,7 @@ h1 {
   line-height: 1.5rem;
   border: 2px solid var(--greyText);
   background: linear-gradient(#000, transparent, #000);
+  font-size: 1.3rem;
 }
 .startup-box div {
   margin: 10px 0;
@@ -258,7 +259,6 @@ h1 {
   width: 100%;
   border-radius: 2.5px;
   border: 2px solid var(--Xgreen);
-  /* border: 2px solid var(--greyText); */
 }
 .footer-section {
   padding: 25px;
@@ -340,7 +340,7 @@ h1 {
   align-items: center;
 }
 .roverImg img {
-  height: 50vh;
+  height: 45vh;
   padding: 10px;
   border-radius: calc(3vh + 5px);
 }
@@ -358,7 +358,7 @@ h1 {
   color: white;
 }
 .roverDesc1 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   word-spacing: 4px;
   color: var(--greyText);
   text-align: justify;
@@ -377,7 +377,7 @@ h1 {
   color: white;
 }
 .roverDesc2 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   word-spacing: 4px;
   color: var(--greyText);
   text-align: justify;
@@ -388,11 +388,11 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2vh 0;
+  margin: 2vh 0 10vh 0;
 }
 .sponsor-table div{
-  width: 24vw;
-  padding: 2vh 4vw;
+  width: 18vw;
+  padding: 0vh 2vw;
   display: flex;
   justify-content: center;
   align-items: center;

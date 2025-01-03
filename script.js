@@ -18,10 +18,6 @@ document.getElementById("header").innerHTML = `
                         <a href="./team-2021.html">2021</a>
                         <a href="./team-2020.html">2020</a>
                         <a href="./team-2019.html">2019</a>
-                        <a href="./team-2018.html">2018</a>
-                        <a href="./team-2017.html">2017</a>
-                        <a href="./team-2016.html">2016</a>
-                        <a href="./team-2015.html">2015</a>
                     </div>
                 </div> 
                 <li><a class="ACTIVEgallery" href="./gallery.html">GALLERY</a></li>
@@ -71,10 +67,10 @@ document.getElementById("footer").innerHTML = `
     <div class="footer-logo-container">
         <div><img class="footer-logo" src="./images/logos/CreationLabs_logo.png" alt=""></div>
         <div>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/teamroverx/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@teamroverx"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/teamroverx/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/teamroverx/"><i class="fa-brands fa-facebook"></i></a>
         </div>
         <div><img class="footer-logo" src="./images/logos/vit_logo.png" alt=""></div>
     </div>
