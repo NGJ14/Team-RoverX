@@ -39,7 +39,6 @@
     flex-direction: column;
     min-height: 25vh;
     width: 84vw;
-    /* margin: 10px 6vw; */
   }
   .alumni-section {
     display: flex;
@@ -47,7 +46,9 @@
   }
   .startup-box {
     width: 84vw;
-    /* margin: 10px 6vw; */
+  }
+  .startup-box div p{
+    font-size: 1.2rem;
   }
   .ACTIVEachievements{
     color: var(--Xgreen);
@@ -70,7 +71,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
   box-shadow: rgba(46, 46, 46, 0.711) 5px 5px, rgba(217, 217, 217, 0.3) 10px 10px;
   background: linear-gradient(to right, rgba(7, 39, 2, 0.734) 50%, #111 50%);
@@ -86,6 +87,7 @@
 .ach-box-title{
   color: var(--Xgreen);
   font-size: 1rem;
+  margin-bottom: 5px;
 }
 .contact-section {
   display: flex;
@@ -255,14 +257,104 @@
 }
 .roverDesc1 h2{
   color: var(--Xgreen);
+  text-align: center;
 }
 .roverDesc1 h4{
   color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 .roverDesc1 p {
   font-size: 1.1rem;
   word-spacing: 3px;
   color: var(--greyText);
-  text-align: justify;
+}
+.roverDesc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 7.5px 15px;
+}
+.roverDesc2 h2{
+  color: var(--Xgreen);
+  text-align: center;
+}
+.roverDesc2 h4{
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.roverDesc2 p {
+  font-size: 1.1rem;
+  word-spacing: 3px;
+  color: var(--greyText);
+}
+.single-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.single-row img{
+  width: 44vw;
+  height: 30vw;
+  object-fit: cover;
+  margin: 3px;
+  border-radius: 4px;
+}
+.album{
+  margin: 2.5vh 2vw 1vh 2vw;
+  display: flex;
+}
+.gallery-title{
+  color: var(--Xgreen);
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 15vh 0 0 0;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+}
+.team-unit{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  background: #2c2c2cc0;
+  border-radius: 3px;
+  max-width: 50vw;
+}
+.team-unit div img{
+  height: 16vh;
+  border-radius: 2.5px;
+}
+.member-name{
+  font-size: 1.1rem;
+}
+.team-post{
+  color: var(--Xgreen);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.department-title{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2vh;
+  padding: 0.5vh 0;
+  background: linear-gradient(to right, transparent,green,transparent);
+}
+.team-title{
+  padding: 14vh 0 4vh 0;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.2rem;
+  color: white;
+  /* background: linear-gradient(green,transparent,transparent);   */
+  
 }
 }

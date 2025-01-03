@@ -512,12 +512,11 @@ h1 {
   flex-wrap: wrap;
 }
 .team-title{
-  padding: 14vh 0 2vh 0;
+  padding: 14vh 0 4vh 0;
   font-weight: 600;
   text-align: center;
   font-size: 3rem;
   color: white;
-  background: linear-gradient(green,transparent);  
 }
 .department-title{
   color: white;

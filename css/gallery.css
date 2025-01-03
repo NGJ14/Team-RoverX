@@ -25,7 +25,9 @@
   justify-content: center;
 }
 .single-row img{
-  height: 33vh;
-  margin: 3px;
+  height: 25vh;
+  width: 22vw;
+  object-fit: cover;
+  margin: 4px;
   border-radius: 4px;
 }
